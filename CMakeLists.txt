@@ -4,7 +4,7 @@ project(StickyProject)
 set(CMAKE_CXX_STANDARD 14)
 set(CMAKE_POSITION_INDEPENDENT_CODE TRUE)
 
-# Try to find Nuke installation
+# Try to find Nuke installation 
 if(WIN32)
     if(NOT DEFINED NUKE_INSTALL_PATH)
         set(NUKE_INSTALL_PATH "C:/Program Files/Nuke${NUKE_VERSION}")
